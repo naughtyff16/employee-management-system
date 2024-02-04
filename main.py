@@ -1,9 +1,10 @@
-from tkinter import * from tkinter import ttk from tkinter import messagebox from db import Database
+from tkinter import *
+from tkinter import ttk 
+from tkinter import messagebox 
+from db import Database
 
 
-
-
-# testing 
+ 
 db = Database("Employee.db")
 root= Tk()
 root.title("Employee Management System")
