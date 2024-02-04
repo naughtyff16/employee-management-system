@@ -1,7 +1,8 @@
-from tkinter import *
-from tkinter import ttk
-from tkinter import messagebox
-from db import Database
+from tkinter import * from tkinter import ttk from tkinter import messagebox from db import Database
+
+
+
+
 
 db = Database("Employee.db")
 root= Tk()
@@ -9,6 +10,8 @@ root.title("Employee Management System")
 root.geometry("1920x1080+0+0")
 root.config(bg="pink")
 root.state("zoomed")
+
+#nitin changed
 
 name=StringVar()
 age=IntVar()
